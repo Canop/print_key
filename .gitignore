@@ -1,0 +1,5 @@
+/deploy.sh
+/build
+/target
+/releases
+/*.zip
