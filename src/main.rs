@@ -28,7 +28,7 @@ pub fn main() {
                         break;
                     }
                     key!('?') | key!(shift-'?') => {
-                        println!("There's no help on this app");
+                        println!("You typed {} but there's no help in this app", fmt.to_string(key_event).yellow());
                     }
                     _ => {
                         println!("You typed {}", fmt.to_string(key_event).blue());
@@ -36,7 +36,7 @@ pub fn main() {
                 }
             }
             e => { // any other event, for example a resize, we quit
-                eprintln!("quitting on {:?}", e);
+                eprintln!("Quitting on {:?}", e);
                 break;
             }
         }
