@@ -6,6 +6,6 @@ This makes defining keybindings for terminal applications often challenging.
 
 ![Slava Ukraini](doc/screen.png)
 
-Key combinations are printed the way the can be written in key binding configurations of programs such as [broot](https://dystroy.org/broot) or [bacon](https://dystroy.org/bacon).
+Key combinations are printed the way they can be written in key binding configurations of programs such as [broot](https://dystroy.org/broot) or [bacon](https://dystroy.org/bacon).
 
 Precompiled binaries are available at [https://dystroy.org/print_key/download](https://dystroy.org/print_key/download).
