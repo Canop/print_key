@@ -8,4 +8,6 @@ This makes defining keybindings for terminal applications often challenging.
 
 Key combinations are printed the way they can be written in key binding configurations of programs such as [broot](https://dystroy.org/broot) or [bacon](https://dystroy.org/bacon).
 
+This serialized format can be parsed by the [crokey](https://github.com/Canop/crokey) Rust library.
+
 Precompiled binaries are available at [https://dystroy.org/print_key/download](https://dystroy.org/print_key/download).
