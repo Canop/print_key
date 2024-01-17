@@ -1,6 +1,6 @@
 [package]
 name = "print_key"
-version = "1.0.0"
+version = "2.0.0"
 repository = "https://github.com/Canop/print_key"
 authors = ["dystroy <denys.seguret@gmail.com>"]
 edition = "2021"
@@ -10,5 +10,7 @@ readme = "README.md"
 categories = ["command-line-utilities"]
 
 [dependencies]
-crokey = "0.4"
-crossterm = "0.23.1"
+crokey = "0.6.0"
+
+[patch.crates-io]
+# crokey = { path = "../crokey" }
