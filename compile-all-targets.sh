@@ -26,6 +26,7 @@ cp target/release/$APP "build/$target/"
 
 # build versions for other platforms using cargo cross
 cross_build() {
+    cargo clean
     name="$1"
     target="$2"
     app_ext="$3"
