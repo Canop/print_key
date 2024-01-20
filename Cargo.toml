@@ -10,7 +10,8 @@ readme = "README.md"
 categories = ["command-line-utilities"]
 
 [dependencies]
-crokey = "0.6.0"
+clap = { version = "4.4", features = ["derive"] }
+crokey = "0.6.1"
 
 [patch.crates-io]
-# crokey = { path = "../crokey" }
+crokey = { path = "../crokey" }
