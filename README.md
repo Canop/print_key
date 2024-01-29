@@ -1,3 +1,10 @@
+[![Latest Version][s1]][l1] [![Chat on Miaou][s2]][l2]
+
+[s1]: https://img.shields.io/crates/v/print_key.svg
+[l1]: https://crates.io/crates/print_key
+
+[s2]: https://miaou.dystroy.org/static/shields/room.svg
+[l2]: https://miaou.dystroy.org/3768?rust
 
 Your OS and your terminal intercept many key combinations, and hide the modifiers of some.
 This makes defining keybindings for terminal applications often challenging.
