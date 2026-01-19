@@ -17,4 +17,6 @@ Key combinations are printed the way they can be written in key binding configur
 
 This serialized format can be parsed by the [crokey](https://github.com/Canop/crokey) Rust library.
 
-Precompiled binaries are available at [https://dystroy.org/print_key/download](https://dystroy.org/print_key/download).
+To install print_key, with [rust](https://rustup.rs), do `cargo install print_key`.
+
+Precompiled binaries are also available at [https://dystroy.org/print_key/download](https://dystroy.org/print_key/download).
